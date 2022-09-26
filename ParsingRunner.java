@@ -38,20 +38,20 @@ class ParsingRunner{
 //and wehave to use wrapper classes to parse 	
 		
 		
-int convertedprice=Integer.parseInt(price);
-int convertedquantity=Integer.parseInt(quantity);
-boolean convertedquality=Boolean.parseBoolean(quality);
+int convertedPrice=Integer.parseInt(price);
+int convertedQuantity=Integer.parseInt(quantity);
+boolean convertedQuality=Boolean.parseBoolean(quality);
 		
-		System.out.println("converted price is : "+convertedprice);
-		System.out.println("converted quantity is : "+convertedquantity);
-		System.out.println("converted quality is : "+convertedquality);
+		System.out.println("converted price is : "+convertedPrice);
+		System.out.println("converted quantity is : "+convertedQuantity);
+		System.out.println("converted quality is : "+convertedQuality);
 	
-if( convertedquantity>0&&convertedprice>0)
+if( convertedQuantity>0&&convertedPrice>0)
 {
 	
-	int totalprice=convertedprice*convertedquantity;
+	int totalprice=convertedPrice*convertedQuantity;
 	
-		System.out.println("total price of :" +convertedquantity+ " products is : "+totalprice);
+		System.out.println("total price of :" +convertedQuantity+ " products is : "+totalPrice);
 }
 	
 		
